@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:id="@+id/share"
+    android:background="@drawable/background_shape_for_bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/viewTwo"
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="2"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/aadhar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Aadhaar"
+        android:textStyle="bold"
+
+        android:textColor="#191919"
+        android:textSize="16sp"/>
+
+
+
+    <TextView
+        android:id="@+id/passport_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Passport"
+        android:textColor="#191919"
+        android:textSize="16sp"
+       />
+
+    <TextView
+        android:id="@+id/voter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Voter ID"
+        android:textColor="#191919"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/driving_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Driving license"
+        android:textColor="#191919"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
