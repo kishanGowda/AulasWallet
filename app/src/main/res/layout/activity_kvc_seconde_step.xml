@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".KvcSecondeStep">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/backArrow"
+            android:id="@+id/backArrow_kvc_seconde_step"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -148,7 +151,9 @@
         android:background="@drawable/stroke_box"
         android:hint="Enter Pincode"
         android:padding="10dp"
-        android:textColor="#191919"
+        android:inputType="number"
+        android:minLines="5"
+        android:textColor="@color/black"
 
         android:textSize="14dp"
         android:textStyle="bold"
@@ -169,7 +174,7 @@
         app:layout_constraintTop_toBottomOf="@+id/house_editText" />
 
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/state_editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -201,7 +206,7 @@
         app:layout_constraintTop_toBottomOf="@+id/pincode_editText" />
 
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/city_editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -232,7 +237,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/state_editText" />
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/country_editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -269,12 +274,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="18dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_button"
         android:text="PROCEED"
+        android:enabled="false"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/country_editText"
         app:layout_constraintTop_toBottomOf="@+id/country_editText" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

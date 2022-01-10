@@ -1,6 +1,7 @@
 package com.example.aluswallet;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.PagerSnapHelper;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 
 public class FeeSummary extends AppCompatActivity {
     TextView textView;
+    CardView paymentHistory;
 
     ArrayList<PaymentRequest> card = new ArrayList<>();
     RecyclerView recyclerView;
@@ -31,6 +33,15 @@ public class FeeSummary extends AppCompatActivity {
 
         createCard();
         buildRecyclerView();
+        paymentHistory=findViewById(R.id.payment_history);
+        paymentHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),PaymentHistory.class);
+                startActivity(intent);
+            }
+        });
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -43,7 +43,8 @@ ArrayList<PaymentRequestTwo> card;
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(context,DetailsOfPayment.class);
+                Intent intent =new Intent(context,DetailsOfPayment.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });

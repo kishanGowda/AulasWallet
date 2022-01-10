@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="0dp"
     android:background="@drawable/dailog_bg"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -26,7 +26,7 @@
         android:textColor="@color/black"
         android:textSize="18dp"
         android:layout_marginTop="32dp"
-        android:text="KYC Completed!" />
+        android:text="Payment successful!!" />
 
     <TextView
         android:id="@+id/textView15"
@@ -37,19 +37,20 @@
         android:textColor="#636363"
 
         android:layout_marginTop="10dp"
-        android:text="Your KYC is completed" />
+        android:text="Your payment was successful." />
 
     <Button
-        android:id="@+id/okay_btn"
+        android:id="@+id/back_to_home_button"
         android:background="@drawable/rounded_button"
         android:layout_width="match_parent"
         android:layout_marginTop="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+
         android:textColor="@color/white"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="30dp"
         android:layout_height="wrap_content"
-        android:text="okay" />
+        android:text="BACK TO HOME" />
 
 
 </LinearLayout>

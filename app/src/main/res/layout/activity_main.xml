@@ -325,6 +325,7 @@
                         android:background="@drawable/rounded_two"
                         android:text="Get your YPay Card Now!"
                         android:textColor="@color/black"
+                        android:id="@+id/ypay_button"
                         android:textSize="12dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="@+id/textView6"

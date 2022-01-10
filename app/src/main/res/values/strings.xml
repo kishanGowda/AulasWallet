@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">AlusWallet</string>
+    <string-array name="Spinner">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="Relationship">
+        <item>single</item>
+        <item>married</item>
+
+
+
+    </string-array>
+
+
+    <string-array name="States">
+        <item>Karnataka</item>
+        <item>maharastra</item>
+        <item>kerala</item>
+    </string-array>
+
+    <string-array name="Desrict">
+        <item>Ramanagara</item>
+        <item>Bangalore</item>
+        <item>daravada</item>
+        <item>chikkamangaluru</item>
+        <item>channaptana</item>
+        <item>Mandya</item>
+        <item>madduru</item>
+
+    </string-array>
+
+    <string-array name="country">
+        <item>India</item>
+        <item>bangladesh</item>
+        <item>chaina</item>
+        <item>pakisthan</item>
+        <item>england</item>
+        <item>Australia</item>
+    </string-array>
 </resources>
