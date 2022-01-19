@@ -29,12 +29,14 @@
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/email.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/kvc_complete.xml" value="0.203125" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/options.xml" value="0.32252085264133457" />
+        <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_cancel.xml" value="0.203125" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_history.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_history_recyclerview.xml" value="0.5" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_option.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_request_recyclerview.xml" value="0.203125" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_request_recyclerviewtwo.xml" value="0.203125" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/payment_succesfull_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/transaction_failed.xml" value="0.203125" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/layout/view_all_payment_request.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Kishan/AndroidStudioProjects/AlusWallet/app/src/main/res/menu/mneu.xml" value="0.203125" />
       </map>

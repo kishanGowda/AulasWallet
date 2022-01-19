@@ -3,6 +3,10 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven
+                {
+                    url 'https://maven.cashfree.com/release'
+                }
     }
 }
 dependencyResolutionManagement {
@@ -10,7 +14,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven
+                {
+                    url 'https://maven.cashfree.com/release'
+                }
     }
 }
+
 rootProject.name = "AlusWallet"
 include ':app'
